@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./Configure
+
+make
+
