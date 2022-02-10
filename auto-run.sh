@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./Configure
+./Configure no-shared
 
 make
 

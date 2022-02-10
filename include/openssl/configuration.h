@@ -69,6 +69,9 @@ extern "C" {
 # ifndef OPENSSL_NO_KTLS
 #  define OPENSSL_NO_KTLS
 # endif
+# ifndef OPENSSL_NO_LOADERENG
+#  define OPENSSL_NO_LOADERENG
+# endif
 # ifndef OPENSSL_NO_MD2
 #  define OPENSSL_NO_MD2
 # endif
@@ -102,8 +105,8 @@ extern "C" {
 # ifndef OPENSSL_NO_WEAK_SSL_CIPHERS
 #  define OPENSSL_NO_WEAK_SSL_CIPHERS
 # endif
-# ifndef OPENSSL_NO_STATIC_ENGINE
-#  define OPENSSL_NO_STATIC_ENGINE
+# ifndef OPENSSL_NO_DYNAMIC_ENGINE
+#  define OPENSSL_NO_DYNAMIC_ENGINE
 # endif
 
 
